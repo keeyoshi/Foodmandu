@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_width="0.3in"
+        android:layout_height="0.3in"
+        android:src="@drawable/ic_launcher_background"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Email*"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="67dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:layout_width="0.3in"
+            android:layout_height="0.3in"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/ic_launcher_background"
+            tools:srcCompat="@android:drawable/ic_lock_lock" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Password*"
+            android:inputType="textPassword"
+            android:layout_marginLeft="67dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:gravity="right"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:gravity="left"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
