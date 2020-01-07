@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".RegisterActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="First Name*"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/text_rounded"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Last Name*"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/text_rounded"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number*"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/text_rounded"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email*"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/text_rounded"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password*"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/text_rounded"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password*"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/text_rounded"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="23sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedshape"/>
+
+
+</LinearLayout>
